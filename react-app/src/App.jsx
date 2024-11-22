@@ -1,10 +1,11 @@
 import './App.css'
+import Form from './components/Form'
 
 function App() {
   return (
-    <>
-      <p>Hello Vite and React</p>
-    </>
+    <div className="App">
+      <div className="form-content"><Form /></div>
+    </div>
   )
 }
 
